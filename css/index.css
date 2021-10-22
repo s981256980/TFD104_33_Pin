@@ -1,0 +1,324 @@
+@import "./common/header.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+body{
+  margin: 0px;
+}
+
+div.banner{
+  /* border: 1px solid green; */
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  min-width: 1200px;
+  height: 800px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+}
+
+p.brand{
+  /* border: 1px solid green; */
+  width: 1200px;
+  margin: 50px 0;
+  font-size: 24px;
+  text-align: center;
+  margin: 50px auto;
+  color: #233F30;
+  /* padding: 0 auto; */
+  /* left: 50%;
+  position: absolute;
+  transform: translateX(-50%); */
+}
+
+main.main{
+  background-image: url(../images/service.png);
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  margin: 0 auto 100px;
+}
+
+main.main div.service1{
+  width: 550px;
+  height: 350px;
+  /* border: 1px solid purple; */
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+main.main div.service1 img{
+  width: 600px;
+  height: 375px;
+}
+
+i.fa-chevron-left{
+  font-size: 40px;
+  color: #233F30;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  background-color: white;
+  border:
+}
+
+i.fa-chevron-right{
+  font-size: 40px;
+  color: #233F30;
+  position: absolute;
+  top: 25%;
+  left: 78.5%;
+}
+
+main.main div.service1text{
+  text-align: center;
+  /* border: 1px solid green; */
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main.main div.service1text p.service1head{
+  font-size: 32px;
+  padding: 0;
+  margin: 25px 0;
+}
+
+main.main div.service1text div.button{
+  border: 1px solid black;
+  background-color: #233F30;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 150px;
+  margin: 25px auto 0;
+  padding: 10px 0;
+}
+
+main.main div.service2{
+  width: 350px;
+  height: 225px;
+  /* border: 1px solid purple; */
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+
+}
+
+main.main div.service2 img{
+  width: 350px;
+  height: 225px;
+}
+
+main.main div.service3{
+  width: 350px;
+  height: 225px;
+  /* border: 1px solid purple; */
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+main.main div.service3 img{
+  width: 350px;
+  height: 225px;
+}
+
+section.customize{
+  /* border: 1px solid green; */
+  position: relative;
+  height: 1600px;
+  width: 1200px;
+  margin: 0 auto 100px;
+}
+
+section.customize p.customizehead{
+  font-size: 32px;
+  color: #233F30;
+  left: 25%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+section.customize p.customizehead::before{
+  content: "";
+  border: 10px solid #233F30;
+  margin: 0 5px;
+}
+
+section.customize div.livingroom{
+  /* border: 1px solid red; */
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 160px;
+
+}
+
+section.customize div.livingroom div.livingroompic{
+  width: 400px;
+  height: 400px;
+  border-radius: 60px 0 0 60px;
+  overflow: hidden;
+}
+
+section.customize div.livingroom div.livingroompic img{
+  max-height: 100%;
+}
+
+section.customize div.livingroom span.livingroomhead{
+  font-size: 32px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+  bottom: 150px;
+}
+
+section.customize div.livingroom span.livingroomtext{
+  width: 300px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+  bottom: 60px;
+}
+
+section.customize div.livingroom span.livingroom1{
+  /* border: 1px solid black; */
+  right: 9%;
+  position: absolute;
+  bottom: 5px;
+}
+
+section.customize div.kitchen{
+  /* border: 1px solid red; */
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 650px;
+
+}
+
+section.customize div.kitchen div.kitchenpic{
+  width: 400px;
+  height: 400px;
+  border-radius: 0 60px 60px 0;
+  overflow: hidden;
+  float: right;
+}
+
+section.customize div.kitchen div.kitchenpic img{
+  max-height: 100%;
+}
+
+section.customize div.kitchen span.kitchenhead{
+  font-size: 32px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  left: 8%;
+  bottom: 150px;
+}
+
+section.customize div.kitchen span.kitchentext{
+  width: 300px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  right: 55%;
+  bottom: 60px;
+}
+
+section.customize div.kitchen span.kitchen1{
+  /* border: 1px solid black; */
+  right: 55%;
+  position: absolute;
+  bottom: 5px;
+}
+
+section.customize div.bedroom{
+  /* border: 1px solid red; */
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1140px;
+
+}
+
+section.customize div.bedroom div.bedroompic{
+  width: 400px;
+  height: 400px;
+  border-radius: 60px 0 0 60px;
+  overflow: hidden;
+}
+
+section.customize div.bedroom div.bedroompic img{
+  max-height: 100%;
+}
+
+section.customize div.bedroom span.bedroomhead{
+  font-size: 32px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+  bottom: 150px;
+}
+
+section.customize div.bedroom span.bedroomtext{
+  width: 300px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+  bottom: 60px;
+}
+
+section.customize div.bedroom span.bedroom1{
+  /* border: 1px solid black; */
+  right: 9%;
+  position: absolute;
+  bottom: 5px;
+}
+
+section.product{
+  border: 1px solid green;
+  position: relative;
+  height: 1000px;
+  width: 1200px;
+  margin: 0 auto 100px;
+}
+
+section.product p.producthead{
+  font-size: 32px;
+  color: #233F30;
+  padding: 0 0 0 50px;
+
+}
+
+section.product p.producthead::before{
+  content: "";
+  border: 10px solid #233F30;
+  margin: 0 5px;
+}
