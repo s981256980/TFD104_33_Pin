@@ -49,7 +49,7 @@ main.main div.brand p.brandhead{
 
 main.main div.brand p.brandhead::before{
   content: "";
-  border: 10px solid #233F30;
+  border: 8px solid #233F30;
   margin: 0 5px;
 }
 

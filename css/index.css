@@ -157,7 +157,7 @@ section.customize p.customizehead{
 
 section.customize p.customizehead::before{
   content: "";
-  border: 10px solid #233F30;
+  border: 8px solid #233F30;
   margin: 0 5px;
 }
 
@@ -321,7 +321,7 @@ section.product p.producthead{
 
 section.product p.producthead::before{
   content: "";
-  border: 10px solid #233F30;
+  border: 8px solid #233F30;
   margin: 0 5px;
 }
 
