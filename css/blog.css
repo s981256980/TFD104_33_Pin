@@ -3,6 +3,7 @@
 @import "./common/header1.css";
 *{
   box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 body{
   margin: 0px;
