@@ -8,6 +8,14 @@
 body{
   margin: 0px;
 }
+
+header.header nav.nav ul.nav_list li.blogli{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* border: 1px solid red; */
+  pointer-events: none;
+}
+
 main.main{
   /* border: 1px solid green; */
   width: 1200px;
@@ -331,4 +339,3 @@ section.section div.blog div.blogtext6 div.bottom6line{
 footer.footer{
   margin: 300px auto 0;
 }
-

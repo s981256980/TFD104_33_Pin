@@ -9,6 +9,8 @@ body{
   margin: 0;
 }
 
+
+
 main.main{
   /* border: 1px solid red; */
   margin: 50px auto;
@@ -53,7 +55,7 @@ main.main div.plants div.button{
   background-color: #233F30;
   color: white;
   font-size: 24px;
-  border-radius: 10px;
+  border-radius: 30px;
   width: 150px;
   margin: 25px auto 0;
   padding: 10px 20px;
@@ -103,7 +105,7 @@ main.main div.custom div.button2{
   background-color: #233F30;
   color: white;
   font-size: 24px;
-  border-radius: 10px;
+  border-radius: 30px;
   width: 200x;
   margin: 25px auto 0;
   padding: 10px 20px;
@@ -115,7 +117,7 @@ main.main div.custom div.button2{
 
 /* 商品區域 */
 section.product{
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
   width: 1200px;
   margin: 0 auto;
   height: 1700px;
@@ -123,7 +125,7 @@ section.product{
 }
 
 section.product aside.aside{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 150px;
   height: 600px;
   margin: 0 25px ;
@@ -164,10 +166,15 @@ section.product div.productitem > div{
   /* border: 1px solid blue; */
 }
 
+section.product div.productitem > div > img:hover{
+  transform: rotate(5deg);
+}
+
 /* 第一個商品 */
 section.product div.productitem div.productitem1 img{
   max-width: 300px;
 }
+
 
 section.product div.productitem div.productitem1 > p{
   padding: 0 0 0 10px;
@@ -361,4 +368,12 @@ section.product div.productitem div.productitem9 p.button9{
   padding: 10px;
   margin: 0 0 0 10px;
   text-align: center;
+}
+
+
+header.header nav.nav ul.nav_list li.productli{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* border: 1px solid red; */
+  pointer-events: none;
 }

@@ -278,3 +278,9 @@ section.course div.button{
   top: 0px;
 }
 
+header.header nav.nav ul.nav_list li.courseli{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* border: 1px solid red; */
+  pointer-events: none;
+}

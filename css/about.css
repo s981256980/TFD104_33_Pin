@@ -9,6 +9,14 @@ body{
   margin: 0;
 }
 
+header.header nav.nav ul.nav_list li.aboutli{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* border: 1px solid red; */
+  pointer-events: none;
+}
+
+
 div.banner{
   /* border: 1px solid green; */
   background-image: url(../images/whitelogo.jpg);
