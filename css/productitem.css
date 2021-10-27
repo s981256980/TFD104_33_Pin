@@ -29,7 +29,7 @@ nav.breadcrumbs ol.breadcrumb > li > a > span.bcspan1{
 }
 
 main.main{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -37,7 +37,7 @@ main.main{
 
 main.main div.mainpic{
   width: 50%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -45,14 +45,14 @@ main.main div.mainpic{
 }
 
 main.main div.mainpic > div{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 150px;
   height: 100px;
   margin: 15px 0;
 }
 
 main.main div.mainpic > div:nth-child(1){
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   flex-basis: 100%;
   height: 400px;
 }
@@ -62,7 +62,7 @@ main.main div.mainpic > div > img{
 
 main.main div.maintext{
   width: 50%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 main.main div.maintext p.maintext-hd{
@@ -75,37 +75,93 @@ main.main div.maintext p.maintext-ct{
 }
 
 main.main div.maintext div.btn-account{
-  border: 1px solid brown;
+  border: 1px solid #595757;
   max-width: 50%;
   margin: 20px 30px;
-  height: 20px;
-  background-color: #e2e8f0;
+  height: 30px;
+  background-color: transparent;
   position: relative;
   vertical-align: middle;
   display: flex;
+  border-radius: 15px;
+  /* justify-content: space-between; */
+
   
 }
 
-main.main div.maintext div.btn-account button.quantityadd{
+main.main div.maintext div.btn-account button.quantitydown{
   border-radius: 15px 0 0 15px;
-  border: 1px solid #595757;
+  border: 0;
+  border-right: 1px solid #595757;
   position: relative;
+  width: 25%;
+  cursor: pointer;
+  /* overflow: hidden; */
   
 
 }
 
-main.main div.maintext div.btn-account button.quantityadd::before{
+main.main div.maintext div.btn-account button.quantitydown::before{
   content: "";
   position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 19px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 15px;
   height: 1px;
   border-top: 1px solid black;
+  
 }
 
 main.main div.maintext div.btn-account > input{
   font-size: 18px;
   border: 0;
   text-align: center;
+  padding: 10px;
+  width: 50%;
+  flex-grow: 
+}
+
+main.main div.maintext div.btn-account button.quantityadd{
+  border-radius: 0 15px 15px 0;
+  border: 0;
+  border-left: 1px solid #595757;
+  position: relative;
+  width: 25%;
+  cursor: pointer;
+}
+
+main.main div.maintext div.btn-account button.quantityadd::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 15px;
+  height: 1px;
+  border-top: 1px solid black;
+}
+
+main.main div.maintext div.btn-account button.quantityadd::after{
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  width: 1px;
+  height: 15px;
+  border-left: 1px solid black;
+}
+
+main.main div.maintext p.chart{
+  /* border: 1px solid black; */
+  background-color: #233F30;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  width: 180px;
+  margin: 20px 30px;
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
 }
